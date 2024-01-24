@@ -1,0 +1,1 @@
+.wd-masonry-first:not([style*="height"]){display:block}.wd-masonry-first:not([style*="height"]):after{content:"";display:block;clear:both}.wd-masonry-first:not([style*="height"]) .wd-col{float:left}@media (min-width: 1025px){.wd-masonry-first>.wd-col:first-child .wd-entities-title{font-size:28px}}

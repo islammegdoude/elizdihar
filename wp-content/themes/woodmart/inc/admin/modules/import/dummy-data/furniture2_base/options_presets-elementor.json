@@ -1,0 +1,19 @@
+{
+    "2": {
+        "pages-background": {
+            "color": "rgb(255,255,255)",
+            "url": "",
+            "id": "",
+            "repeat": "",
+            "size": "",
+            "attachment": "",
+            "position": ""
+        },
+        "carousel_arrows_sep_border_style": "",
+        "carousel_arrows_together_border_style": "",
+        "carousel_pagin_border_style": "",
+        "site_width": "custom",
+        "site_custom_width": "1025",
+        "fields_to_save": "pages-background,carousel_arrows_sep_border_style,carousel_arrows_together_border_style,carousel_pagin_border_style,site_width,site_custom_width"
+    }
+}

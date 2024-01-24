@@ -1,0 +1,34 @@
+.elementor-editor-active {
+
+	.wd-wc-notices {
+		display: block !important;
+
+		// &.elementor-widget-empty {
+
+		// 	.elementor-widget-container {
+		// 		margin: 0 !important;
+		// 		padding: 0 !important;
+		// 	}
+		// }
+
+		.elementor-widget-container {
+			margin: 0 !important;
+			padding: 0 !important;
+			height: auto; // NOTE FOR CONTAINER
+		}
+	}
+
+	.elementor-column {
+
+		.wd-wc-notices {
+
+			&.elementor-widget-empty {
+				margin-bottom: 20px !important;
+			}
+
+			// .elementor-widget-empty-icon {
+			// 	margin-bottom: 20px;
+			// }
+		}
+	}
+}

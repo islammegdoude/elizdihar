@@ -1,0 +1,441 @@
+[
+	{
+        "id": "f9b331f",
+        "settings": {
+          "flex_gap": {
+            "size": null,
+            "column": "",
+            "row": "",
+            "unit": "px",
+            "isLinked": true
+          },
+          "wd_section_stretch": "stretch-content",
+          "margin": {
+            "unit": "px",
+            "top": "-40",
+            "right": "0",
+            "bottom": "60",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "-40",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "flex_direction": "column",
+          "scroll_y": -80,
+          "container_sticky_offset": 50
+        },
+        "elements": [
+          {
+            "id": "439461be",
+            "settings": {
+              "full_width": "yes",
+              "scroll_y": -80
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_page_title",
+            "elType": "widget"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      },
+      {
+        "id": "b9c6e55",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "80",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "60",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_mobile": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "flex_direction": "column",
+          "flex_gap": {
+            "size": null,
+            "column": "",
+            "row": "",
+            "unit": "px",
+            "isLinked": true
+          },
+          "scroll_y": -80,
+          "container_sticky_offset": 50
+        },
+        "elements": [
+          {
+            "id": "5981eebe",
+            "settings": {
+              "scroll_y": -80
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_wc_notices",
+            "elType": "widget"
+          },
+          {
+            "id": "109c6e7d",
+            "settings": {
+              "flex_direction": "row",
+              "flex_justify_content": "space-between",
+              "flex_align_items": "center",
+              "flex_gap": {
+                "column": "10",
+                "row": "10",
+                "isLinked": true,
+                "unit": "px",
+                "size": 10
+              },
+              "scroll_y": -80,
+              "container_sticky_offset": 50
+            },
+            "elements": [
+              {
+                "id": "2b393d33",
+                "settings": {
+                  "subtitle": "",
+                  "title": "Choose Your Phone",
+                  "after_title": "",
+                  "size": "medium",
+                  "align": "left",
+                  "title_typography_typography": "custom",
+                  "title_typography_font_family": "hkgroteskpro",
+                  "_element_width": "auto",
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_title",
+                "elType": "widget"
+              },
+              {
+                "id": "75c16e07",
+                "settings": {
+                  "text": "MORE MODELS",
+                  "style": "link",
+                  "_element_width": "auto",
+                  "scroll_y": -80,
+                  "_margin_mobile": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                  }
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_button",
+                "elType": "widget"
+              }
+            ],
+            "isInner": true,
+            "elType": "container"
+          },
+          {
+            "id": "3b5fd8d1",
+            "settings": {
+              "data_source": "wc_query",
+              "hide_empty": "",
+              "categories_design": "alt",
+              "img_size": "full",
+              "image_container_width": {
+                "unit": "px",
+                "size": 100,
+                "sizes": []
+              },
+              "rounding_size": "custom",
+              "custom_rounding_size": {
+                "unit": "%",
+                "size": 50,
+                "sizes": []
+              },
+              "img_size_custom": {
+                "width": "100",
+                "height": "100"
+              },
+              "categories_with_shadow": "disable",
+              "style": "carousel",
+              "spacing": "30",
+              "slides_per_view": {
+                "unit": "px",
+                "size": 6,
+                "sizes": []
+              },
+              "hide_pagination_control": "yes",
+              "scroll_y": -80,
+              "slides_per_view_tablet": {
+                "unit": "px",
+                "size": 3,
+                "sizes": []
+              },
+              "slides_per_view_mobile": {
+                "unit": "px",
+                "size": 2,
+                "sizes": []
+              },
+              "sync_parent_id": "wd_658c39cb50ace"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_product_categories",
+            "elType": "widget"
+          },
+          {
+            "id": "671dae42",
+            "settings": {
+              "number": 6,
+              "filter_in_current_category": "yes",
+              "style": "grid",
+              "columns": {
+                "unit": "px",
+                "size": 6,
+                "sizes": []
+              },
+              "_margin": {
+                "unit": "px",
+                "top": "10",
+                "right": "0",
+                "bottom": "10",
+                "left": "0",
+                "isLinked": false
+              },
+              "scroll_y": -80,
+              "columns_tablet": {
+                "unit": "px",
+                "size": 3,
+                "sizes": []
+              },
+              "columns_mobile": {
+                "unit": "px",
+                "size": 2,
+                "sizes": []
+              },
+              "sync_parent_id": "wd_658c39cb5234f"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_products_brands",
+            "elType": "widget"
+          },
+          {
+            "id": "7906f3f9",
+            "settings": {
+              "content_repeater": [
+                {
+                  "title": "MagSafe Case",
+                  "subtitle": "Safe yout phone",
+                  "_id": "f7b5976",
+                  "image": {
+                    "url": "http://dummy.xtemos.com/woodmart2/accessories-elementor/wp-content/uploads/sites/6/2022/09/mag-safe-case-category.jpg",
+                    "id": 9430,
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "image_size": "full",
+                  "btn_text": "View more"
+                },
+                {
+                  "title": "Fabric Case",
+                  "subtitle": "Popular",
+                  "image": {
+                    "url": "http://dummy.xtemos.com/woodmart2/accessories-elementor/wp-content/uploads/sites/6/2022/09/fabric-case-category.jpg",
+                    "id": 9434,
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "image_size": "full",
+                  "btn_text": "View more",
+                  "_id": "3432ef0"
+                },
+                {
+                  "title": "Silicone Case",
+                  "subtitle": "Your style",
+                  "image": {
+                    "url": "http://dummy.xtemos.com/woodmart2/accessories-elementor/wp-content/uploads/sites/6/2022/09/silicone-case-category.jpg",
+                    "id": 9435,
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "image_size": "full",
+                  "btn_text": "View more",
+                  "_id": "e1e5978"
+                }
+              ],
+              "hover": "parallax",
+              "woodmart_color_scheme": "dark",
+              "title_size": "large",
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "hkgroteskpro",
+              "subtitle_color": "primary",
+              "subtitle_typography_typography": "custom",
+              "subtitle_typography_font_family": "hkgroteskpro",
+              "subtitle_typography_font_size": {
+                "unit": "px",
+                "size": 15,
+                "sizes": []
+              },
+              "subtitle_typography_font_size_tablet": {
+                "unit": "px",
+                "size": 13,
+                "sizes": []
+              },
+              "subtitle_typography_font_size_mobile": {
+                "unit": "px",
+                "size": 12,
+                "sizes": []
+              },
+              "btn_position": "static",
+              "btn_color": "primary",
+              "btn_shape": "semi-round",
+              "scroll_y": -80,
+              "hide_pagination_control": "yes",
+              "slides_per_view_tablet": {
+                "unit": "px",
+                "size": 2,
+                "sizes": []
+              },
+              "slides_per_view_mobile": {
+                "unit": "px",
+                "size": 1,
+                "sizes": []
+              },
+              "sync_parent_id": "wd_658c39cb52c72"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_banner_carousel",
+            "elType": "widget"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      },
+      {
+        "id": "58147385",
+        "settings": {
+          "flex_direction": "column",
+          "flex_gap": {
+            "size": null,
+            "column": "",
+            "row": "",
+            "unit": "px",
+            "isLinked": true
+          },
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "20",
+            "left": "0",
+            "isLinked": false
+          },
+          "scroll_y": -80,
+          "container_sticky_offset": 50
+        },
+        "elements": [
+          {
+            "id": "537e6e1",
+            "settings": {
+              "subtitle": "Hurry up to buy",
+              "title": "Popular Products",
+              "after_title": "<p>How can you evaluate content without design</p>",
+              "color": "primary",
+              "size": "large",
+              "subtitle_typography_typography": "custom",
+              "subtitle_typography_font_size": {
+                "unit": "px",
+                "size": "15",
+                "sizes": []
+              },
+              "subtitle_typography_font_size_tablet": {
+                "unit": "px",
+                "size": "13",
+                "sizes": []
+              },
+              "subtitle_typography_font_size_mobile": {
+                "unit": "px",
+                "size": "12",
+                "sizes": []
+              },
+              "subtitle_typography_font_weight": "600",
+              "scroll_y": "-80",
+              "subtitle_typography_font_family": "hkgroteskpro",
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "hkgroteskpro"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_title",
+            "elType": "widget"
+          },
+          {
+            "id": "cd4b843",
+            "settings": {
+              "taxonomies": [
+                "23"
+              ],
+              "query_type": "AND",
+              "layout": "carousel",
+              "items_per_page": 6,
+              "slides_per_view": {
+                "unit": "px",
+                "size": 5,
+                "sizes": []
+              },
+              "hide_pagination_control": "yes",
+              "img_size": "full",
+              "scroll_y": -80,
+              "slides_per_view_tablet": {
+                "unit": "px",
+                "size": 3,
+                "sizes": []
+              },
+              "slides_per_view_mobile": {
+                "unit": "px",
+                "size": 2,
+                "sizes": []
+              },
+              "sync_parent_id": "wd_658c39cb53d3e"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_products",
+            "elType": "widget"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      }
+]

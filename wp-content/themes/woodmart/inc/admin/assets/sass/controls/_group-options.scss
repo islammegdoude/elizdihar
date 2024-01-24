@@ -1,0 +1,142 @@
+// ------------------------------------------------------------------------------------------------
+// XTS GROUP OPTIONS
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-group-options {
+
+	// ------------------------------------------
+	// GENERAL
+	// ------------------------------------------
+
+	.xts-group-control {
+		z-index: 1;
+
+		.xts-option-control {
+			position: relative;
+
+			.xts-option-title {
+				--xts-option-space: 8px;
+				margin-bottom: 0;
+				border: none;
+
+				label {
+					font-weight: 400;
+				}
+			}
+		}
+	}
+
+	.xts-group-control {
+
+		.xts-fields-group {
+			gap: 20px;
+
+			> .xts-field {
+				flex-basis: unset;
+				flex-grow: 0;
+				width: auto;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	// ------------------------------------------
+	// DROPDOWNS
+	// ------------------------------------------
+
+	:is(
+	.xts-fields-group,
+	.xts-field) {
+
+		&:has(.xts-dropdown-options.xts-show) {
+			z-index: 999999; // NOTE FOR SELECT 2
+		}
+	}
+
+	.xts-sections {
+
+		&:has(.xts-dropdown-options.xts-show) {
+
+			.xts-options-actions {
+				position: static;
+			}
+		}
+	}
+
+	.xts-dropdown-options {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 var(--xts-sp);
+		position: absolute;
+		top: calc(var(--xts-input-height) + 10px);
+		inset-inline: 0;
+		// margin-top: 20px;
+		padding: 20px 20px 0 20px;
+		max-width: 420px;
+		border: 1px solid var(--xts-option-border-color);
+		border-radius: var(--xts-option-border-radius);
+		// box-shadow: var(--xts-option-box-shadow);
+		box-shadow: var(--xts-box-shadow);
+		background-color: #FFF;
+		// transform: translateY(10px);
+		// transition: all .2s ease;
+		--xts-color-picker-h: 30px;
+		--xts-input-width: 295px;
+		animation: wd-SlideFromBottomSmall .2s ease;
+
+		// &.xts-show {
+		// 	transform: none;
+		// }
+
+		> .xts-field {
+			margin-bottom: 20px;
+			animation-duration: .2s;
+			
+			
+			// &:last-child {
+			// 	margin-bottom: 0px;
+			// }
+		}
+
+		.xts-responsive_range-control {
+
+			.xts-option-title {
+				padding-bottom: 0;
+			}
+		}
+
+		:is(
+		.xts-select-control,
+		.xts-responsive-range) {
+			--xts-input-height: 28px;
+		}
+
+		//**** COLOR-PICKER ****//
+
+		// .wp-picker-container,
+		// .wp-picker-input-wrap {
+		// 	display: flex;
+		// }
+
+		// span.wp-picker-input-wrap {
+
+		// 	input[type=text] {
+		// 		width: 90px !important;
+		// 		font-size: 10px;
+		// 	}
+		// }
+
+		// .wp-color-picker {
+		// 	--xts-input-height: 30px;
+		// }
+	}
+
+	// @-moz-document url-prefix() {
+
+	// 	.xts-dropdown-options {
+	// 		position: relative;
+	// 		top: 0;
+	// 		margin-top: var(--xts-option-space);
+	// 	}
+	// }
+}

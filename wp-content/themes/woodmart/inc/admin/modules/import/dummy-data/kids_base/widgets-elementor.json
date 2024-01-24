@@ -1,0 +1,115 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 65,
+                "thumb_width": 75
+            },
+            "woodmart-instagram-2": {
+                "woodmart_css_id": "",
+                "data_divider": "",
+                "data_source": "images",
+                "images_divider": "",
+                "images": "391,392,393,394,395,353",
+                "images_size": "200x200",
+                "images_link": "https:\/\/www.instagram.com\/babyshop\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "rounded": "",
+                "hide_mask": "",
+                "rounding_size": "",
+                "custom_rounding_size": "",
+                "content_divider": "",
+                "title": "Instagram",
+                "number": "6",
+                "size": "",
+                "content": "",
+                "content_width": "",
+                "content_color_scheme": "",
+                "content_color": "",
+                "content_bg_color": "",
+                "link_divider": "",
+                "username": "",
+                "target": "_self",
+                "link": "",
+                "layout_divider": "",
+                "design": "",
+                "per_row_tabs": "",
+                "per_row": "",
+                "per_row_tablet": "",
+                "per_row_mobile": "",
+                "spacing": "",
+                "spacing_custom_tabs": "",
+                "spacing_custom": "",
+                "spacing_custom_tablet": "",
+                "spacing_custom_mobile": "",
+                "carousel_divider": "",
+                "extra_divider": "",
+                "el_class": "",
+                "css": ""
+            },
+            "recent-comments-2": {
+                "title": "",
+                "number": 5
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Filter by size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Stock status",
+                "instock": "1",
+                "onsale": "1",
+                "onbackorder": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "Categories",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-instagram-2": {
+                "woodmart_css_id": "",
+                "data_divider": "",
+                "data_source": "images",
+                "images_divider": "",
+                "images": "252,253,255,254,257,256",
+                "images_size": "full",
+                "images_link": "https:\/\/www.instagram.com\/wowmonstera\/",
+                "images_likes": "1000-10000",
+                "images_comments": "0-1000",
+                "rounding_size": "",
+                "custom_rounding_size": "",
+                "content_divider": "",
+                "title": "View our instagram",
+                "username": "wowmonstera",
+                "number": "6",
+                "size": "",
+                "content": "",
+                "link_divider": "",
+                "target": "_self",
+                "link": "",
+                "layout_divider": "",
+                "design": "",
+                "per_row_tabs": "",
+                "per_row": "",
+                "per_row_tablet": "",
+                "per_row_mobile": "",
+                "spacing": "",
+                "spacing_custom": "",
+                "rounded": "",
+                "hide_mask": "",
+                "hide_pagination_control": "",
+                "hide_prev_next_buttons": "",
+                "extra_divider": "",
+                "el_class": "",
+                "css": "",
+                "responsive_spacing": ""
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 3,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": false,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 75
+            }
+        }
+    },
+    "filters-area": {
+        "widgets": {
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Filter by size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            }
+        }
+    }
+}

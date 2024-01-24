@@ -1,0 +1,1 @@
+.wd-nav-vertical.wd-design-default{border:1px solid var(--brdcolor-gray-200)}.wd-nav-vertical.wd-design-default>li:is(.wd-opened,:hover)>a{background-color:var(--bgcolor-gray-200);color:var(--color-gray-700)}.wd-nav-vertical.wd-design-default>li:not(:last-child){border-bottom:1px solid var(--brdcolor-gray-200)}

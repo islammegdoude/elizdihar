@@ -1,0 +1,730 @@
+[
+	{
+        "id": "75955f3d",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "-10",
+            "right": "0",
+            "bottom": "60",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "-20",
+            "right": "0",
+            "bottom": "20",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_mobile": {
+            "unit": "px",
+            "top": "-20",
+            "right": "0",
+            "bottom": "20",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "479f05b6",
+            "settings": {
+              "_column_size": 100,
+              "_inline_size": null,
+              "column_sticky_offset": 50,
+              "scroll_y": -80
+            },
+            "elements": [
+              {
+                "id": "15fea6e0",
+                "settings": {
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_wc_notices",
+                "elType": "widget"
+              },
+              {
+                "id": "37c974fe",
+                "settings": {
+                  "image": {
+                    "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/tools-top-banner.jpg",
+                    "id": 1316,
+                    "alt": "",
+                    "source": "library"
+                  },
+                  "image_size": "full",
+                  "custom_height": "Yes",
+                  "image_height": {
+                    "unit": "px",
+                    "size": 300,
+                    "sizes": []
+                  },
+                  "subtitle": "",
+                  "title": "How to Choose a Reliable Tool",
+                  "content": "<p>New arrivals for floors in your home, office and outdoor.</p>",
+                  "btn_text": "Expert Advice",
+                  "style": "mask",
+                  "hover": "zoom",
+                  "woodmart_color_scheme": "light",
+                  "title_typography_typography": "custom",
+                  "title_typography_font_size": {
+                    "unit": "px",
+                    "size": 50,
+                    "sizes": []
+                  },
+                  "title_typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                  },
+                  "title_typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                  },
+                  "text_typography_typography": "custom",
+                  "text_typography_font_size": {
+                    "unit": "px",
+                    "size": 16,
+                    "sizes": []
+                  },
+                  "btn_position": "static",
+                  "btn_size": "large",
+                  "btn_color": "primary",
+                  "vertical_alignment": "middle",
+                  "_margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "20",
+                    "left": "0",
+                    "isLinked": false
+                  },
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_banner",
+                "elType": "widget"
+              },
+              {
+                "id": "528aeae3",
+                "settings": [],
+                "elements": [
+                  {
+                    "id": "2a15e516",
+                    "settings": {
+                      "_column_size": 100,
+                      "_inline_size": null,
+                      "content_position": "center",
+                      "align": "space-between",
+                      "column_sticky_offset": 50,
+                      "scroll_y": -80
+                    },
+                    "elements": [
+                      {
+                        "id": "1bcd7541",
+                        "settings": {
+                          "typography_typography": "custom",
+                          "typography_font_size": {
+                            "unit": "px",
+                            "size": 32,
+                            "sizes": []
+                          },
+                          "typography_font_size_tablet": {
+                            "unit": "px",
+                            "size": 24,
+                            "sizes": []
+                          },
+                          "tag": "h2",
+                          "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "20",
+                            "left": "0",
+                            "isLinked": false
+                          },
+                          "_element_width": "auto",
+                          "scroll_y": -80
+                        },
+                        "elements": [],
+                        "isInner": false,
+                        "widgetType": "wd_shop_archive_woocommerce_title",
+                        "elType": "widget"
+                      },
+                      {
+                        "id": "5507a36",
+                        "settings": {
+                          "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "20",
+                            "left": "0",
+                            "isLinked": false
+                          },
+                          "_element_width": "auto",
+                          "scroll_y": -80
+                        },
+                        "elements": [],
+                        "isInner": false,
+                        "widgetType": "wd_wc_breadcrumb",
+                        "elType": "widget"
+                      }
+                    ],
+                    "isInner": true,
+                    "elType": "column"
+                  }
+                ],
+                "isInner": true,
+                "elType": "section"
+              },
+              {
+                "id": "72a9f5b5",
+                "settings": {
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_shop_archive_archive_description",
+                "elType": "widget"
+              },
+              {
+                "id": "2b98fe19",
+                "settings": {
+                  "number": 10,
+                  "orderby": "menu_order",
+                  "order": "ASC",
+                  "ids": [
+                    "245",
+                    "235",
+                    "252",
+                    "241",
+                    "249"
+                  ],
+                  "hide_empty": "",
+                  "categories_design": "alt",
+                  "img_size": "custom",
+                  "img_size_custom": {
+                    "width": "128",
+                    "height": "128"
+                  },
+                  "categories_with_shadow": "disable",
+                  "columns": {
+                    "unit": "px",
+                    "size": 5,
+                    "sizes": []
+                  },
+                  "spacing": "20",
+                  "scroll_y": -80,
+                  "data_source": "wc_query"
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_product_categories",
+                "elType": "widget"
+              }
+            ],
+            "isInner": false,
+            "elType": "column"
+          }
+        ],
+        "isInner": false,
+        "elType": "section"
+      },
+      {
+        "id": "54c5056d",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "60",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_mobile": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "3188bbf3",
+            "settings": {
+              "_column_size": 100,
+              "_inline_size": null,
+              "column_sticky_offset": 50,
+              "scroll_y": -80
+            },
+            "elements": [
+              {
+                "id": "28eaa9a",
+                "settings": {
+                  "subtitle": "",
+                  "title": "Projects & Ideas",
+                  "after_title": "<p>Get inspired and make your home a place where you can relax in any way. Our range of furniture and accessories will help.</p>",
+                  "size": "medium",
+                  "align": "left",
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_title",
+                "elType": "widget"
+              },
+              {
+                "id": "7aea6611",
+                "settings": {
+                  "structure": "20"
+                },
+                "elements": [
+                  {
+                    "id": "4f3a39f3",
+                    "settings": {
+                      "_column_size": 50,
+                      "_inline_size": null,
+                      "column_sticky_offset": 50,
+                      "scroll_y": -80
+                    },
+                    "elements": [
+                      {
+                        "id": "5cd9827d",
+                        "settings": {
+                          "image": {
+                            "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/hotspot-7.jpg",
+                            "id": 1321,
+                            "alt": "",
+                            "source": "library"
+                          },
+                          "image_size": "full",
+                          "items": [
+                            {
+                              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                              "_id": "ebb6c90",
+                              "hotspot_dropdown_side": "right",
+                              "title": "Face Mirror",
+                              "link_text": "View more",
+                              "product_id": "965",
+                              "hotspot_position_horizontal": {
+                                "unit": "px",
+                                "size": 49.7,
+                                "sizes": []
+                              },
+                              "hotspot_position_vertical": {
+                                "unit": "px",
+                                "size": 33.6,
+                                "sizes": []
+                              },
+                              "hotspot_type": "text",
+                              "image": {
+                                "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/bathroom-product-20.jpg",
+                                "id": 967,
+                                "alt": "",
+                                "source": "library"
+                              },
+                              "image_size": "medium"
+                            },
+                            {
+                              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                              "hotspot_dropdown_side": "right",
+                              "title": "Granite Wall Tile",
+                              "link_text": "View more",
+                              "product_id": "956",
+                              "hotspot_position_horizontal": {
+                                "unit": "px",
+                                "size": 23.7,
+                                "sizes": []
+                              },
+                              "hotspot_position_vertical": {
+                                "unit": "px",
+                                "size": 41.4,
+                                "sizes": []
+                              },
+                              "_id": "d0a9fca",
+                              "hotspot_type": "text",
+                              "image": {
+                                "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/flooring-product-7.jpg",
+                                "id": 957,
+                                "alt": "",
+                                "source": "library"
+                              },
+                              "image_size": "medium"
+                            }
+                          ],
+                          "scroll_y": -80
+                        },
+                        "elements": [],
+                        "isInner": false,
+                        "widgetType": "wd_image_hotspot",
+                        "elType": "widget"
+                      }
+                    ],
+                    "isInner": true,
+                    "elType": "column"
+                  },
+                  {
+                    "id": "15cb121a",
+                    "settings": {
+                      "_column_size": 50,
+                      "_inline_size": null,
+                      "column_sticky_offset": 50,
+                      "scroll_y": -80
+                    },
+                    "elements": [
+                      {
+                        "id": "7b3904c",
+                        "settings": {
+                          "image": {
+                            "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/hotspot-8.jpg",
+                            "id": 1322,
+                            "alt": "",
+                            "source": "library"
+                          },
+                          "image_size": "full",
+                          "items": [
+                            {
+                              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                              "_id": "ebb6c90",
+                              "title": "Granite Wall Tile",
+                              "link_text": "View more",
+                              "product_id": "1057",
+                              "hotspot_position_horizontal": {
+                                "unit": "px",
+                                "size": 42.2,
+                                "sizes": []
+                              },
+                              "hotspot_position_vertical": {
+                                "unit": "px",
+                                "size": 19.8,
+                                "sizes": []
+                              },
+                              "hotspot_type": "text",
+                              "image": {
+                                "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/flooring-product-7.jpg",
+                                "id": 957,
+                                "alt": "",
+                                "source": "library"
+                              },
+                              "image_size": "medium"
+                            },
+                            {
+                              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                              "title": "Face Mirror",
+                              "link_text": "View more",
+                              "product_id": "1098",
+                              "hotspot_position_horizontal": {
+                                "unit": "px",
+                                "size": 66.5,
+                                "sizes": []
+                              },
+                              "hotspot_position_vertical": {
+                                "unit": "px",
+                                "size": 82.9,
+                                "sizes": []
+                              },
+                              "_id": "d0a9fca",
+                              "hotspot_type": "text",
+                              "image": {
+                                "url": "http://dummy.xtemos.com/woodmart2/megamarket-elementor/wp-content/uploads/sites/4/2022/05/bathroom-product-20.jpg",
+                                "id": 967,
+                                "alt": "",
+                                "source": "library"
+                              },
+                              "image_size": "medium"
+                            }
+                          ],
+                          "scroll_y": -80
+                        },
+                        "elements": [],
+                        "isInner": false,
+                        "widgetType": "wd_image_hotspot",
+                        "elType": "widget"
+                      }
+                    ],
+                    "isInner": true,
+                    "elType": "column"
+                  }
+                ],
+                "isInner": true,
+                "elType": "section"
+              }
+            ],
+            "isInner": false,
+            "elType": "column"
+          }
+        ],
+        "isInner": false,
+        "elType": "section"
+      },
+      {
+        "id": "4798ef2d",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "margin_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "20",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "5e0162d2",
+            "settings": {
+              "_column_size": 100,
+              "_inline_size": null,
+              "column_sticky_offset": 50,
+              "scroll_y": -80
+            },
+            "elements": [
+              {
+                "id": "40b4d083",
+                "settings": {
+                  "subtitle": "",
+                  "title": "Popular Brands",
+                  "after_title": "",
+                  "size": "medium",
+                  "align": "left",
+                  "_element_width": "auto",
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_title",
+                "elType": "widget"
+              },
+              {
+                "id": "7cb4ae72",
+                "settings": {
+                  "order": "ASC",
+                  "filter_in_current_category": "yes",
+                  "hover": "alt",
+                  "style": "grid",
+                  "columns": {
+                    "unit": "px",
+                    "size": 6,
+                    "sizes": []
+                  },
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_products_brands",
+                "elType": "widget"
+              }
+            ],
+            "isInner": false,
+            "elType": "column"
+          }
+        ],
+        "isInner": false,
+        "elType": "section"
+      },
+      {
+        "id": "5d2388fa",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "31025353",
+            "settings": {
+              "_column_size": 100,
+              "_inline_size": null,
+              "column_sticky_offset": 50,
+              "scroll_y": -80
+            },
+            "elements": [
+              {
+                "id": "2a480818",
+                "settings": {
+                  "post_type": "recently_viewed",
+                  "ajax_recently_viewed": "yes",
+                  "layout": "carousel",
+                  "items_per_page": 6,
+                  "slides_per_view": {
+                    "unit": "px",
+                    "size": 5,
+                    "sizes": []
+                  },
+                  "hide_pagination_control": "yes",
+                  "product_hover": "small",
+                  "img_size": "custom",
+                  "img_size_custom": {
+                    "width": "80",
+                    "height": "80"
+                  },
+                  "products_bordered_grid": "1",
+                  "scroll_y": -80,
+                  "element_title": "Previously Viewed",
+                  "slides_per_view_mobile": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                  },
+                  "slides_per_view_tablet": {
+                    "unit": "px",
+                    "size": 3,
+                    "sizes": []
+                  }
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_products",
+                "elType": "widget"
+              }
+            ],
+            "isInner": false,
+            "elType": "column"
+          }
+        ],
+        "isInner": false,
+        "elType": "section"
+      },
+      {
+        "id": "7a3e9c12",
+        "settings": {
+          "wd_section_stretch": "stretch",
+          "background_background": "classic",
+          "background_color": "#F8F8F8",
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "-40",
+            "left": "0",
+            "isLinked": false
+          },
+          "padding": {
+            "unit": "px",
+            "top": "50",
+            "right": "15",
+            "bottom": "40",
+            "left": "15",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "164f4177",
+            "settings": {
+              "_column_size": 100,
+              "_inline_size": null,
+              "column_sticky_offset": 50,
+              "scroll_y": -80,
+              "wd_collapsible_content_switcher": "collapsible-content",
+              "wd_collapsible_content_height": {
+                "unit": "px",
+                "size": 373,
+                "sizes": []
+              },
+              "wd_collapsible_content_fade_out_color": "#F8F8F8"
+            },
+            "elements": [
+              {
+                "id": "2d0e3a70",
+                "settings": {
+                  "subtitle": "",
+                  "title": "See our new featured collections",
+                  "after_title": "",
+                  "align": "left",
+                  "title_typography_typography": "custom",
+                  "title_typography_font_size": {
+                    "unit": "px",
+                    "size": 32,
+                    "sizes": []
+                  },
+                  "title_typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 26,
+                    "sizes": []
+                  },
+                  "title_typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20,
+                    "sizes": []
+                  },
+                  "_margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "10",
+                    "left": "0",
+                    "isLinked": false
+                  },
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_title",
+                "elType": "widget"
+              },
+              {
+                "id": "4c150515",
+                "settings": {
+                  "text": "<h4>Online store of tiles and plumbing. Buy online. Here and now!</h4><p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</p><h4>Like these sweet mornings of spring which I enjoy with my whole heart.</h4><p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream.</p><h4>A wonderful serenity has taken possession of my entire soul.</h4><p>Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.</p><h4>Safe delivery, ensures the movement of goods in a short time.</h4><p>You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy, no less.</p>",
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_text_block",
+                "elType": "widget"
+              },
+              {
+                "id": "331547c8",
+                "settings": {
+                  "text": "Read more",
+                  "button_collapsible_content": "yes",
+                  "style": "link",
+                  "color": "primary",
+                  "align": "left",
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_button",
+                "elType": "widget"
+              }
+            ],
+            "isInner": false,
+            "elType": "column"
+          }
+        ],
+        "isInner": false,
+        "elType": "section"
+      }
+]

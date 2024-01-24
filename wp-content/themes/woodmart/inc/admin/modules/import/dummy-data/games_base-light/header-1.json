@@ -1,0 +1,1394 @@
+{
+    "name": "Header Games Light",
+    "id": "header_848505",
+    "structure": {
+        "id": "root",
+        "type": "root",
+        "content": [
+            {
+                "id": "top-bar",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column5",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column6",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column7",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile1",
+                        "type": "column",
+                        "content": []
+                    }
+                ],
+                "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "flex-middle",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 40,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 60,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 40,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "dark",
+                        "type": "selector"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": [],
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": "",
+                        "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
+                    }
+                }
+            },
+            {
+                "id": "general-header",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column8",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column9",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column10",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile2",
+                        "type": "column",
+                        "content": []
+                    },
+                    {
+                        "id": "column_mobile3",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "x2twi7k81sh4sk4j6apd",
+                                "type": "logo",
+                                "params": {
+                                    "image": {
+                                        "id": "image",
+                                        "value": {
+                                            "id": 651,
+                                            "url": "http:\/\/dummy.xtemos.com\/woodmart2\/games\/wp-content\/uploads\/sites\/15\/2023\/07\/wd-vgs-logo-white.svg",
+                                            "width": 174,
+                                            "height": 40
+                                        },
+                                        "type": "image"
+                                    },
+                                    "width": {
+                                        "id": "width",
+                                        "value": 150,
+                                        "type": "slider"
+                                    },
+                                    "sticky_notice": {
+                                        "id": "sticky_notice",
+                                        "value": "",
+                                        "type": "notice"
+                                    },
+                                    "sticky_image": {
+                                        "id": "sticky_image",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "sticky_width": {
+                                        "id": "sticky_width",
+                                        "value": 150,
+                                        "type": "slider"
+                                    },
+                                    "width_height": {
+                                        "id": "width_height",
+                                        "value": false,
+                                        "type": "switcher"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column_mobile4",
+                        "type": "column",
+                        "content": []
+                    }
+                ],
+                "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "flex-middle",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 90,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 50,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 70,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "light",
+                        "type": "selector"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": {
+                            "background-color": {
+                                "r": 109,
+                                "g": 78,
+                                "b": 236,
+                                "a": 1
+                            }
+                        },
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": "",
+                        "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": false,
+                        "type": "switcher"
+                    }
+                }
+            },
+            {
+                "id": "header-bottom",
+                "type": "row",
+                "content": [
+                    {
+                        "id": "column11",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "z7z55jf09ksfcfpbdn34",
+                                "type": "logo",
+                                "params": {
+                                    "image": {
+                                        "id": "image",
+                                        "value": {
+                                            "id": 502,
+                                            "url": "http:\/\/dummy.xtemos.com\/woodmart2\/games\/wp-content\/uploads\/sites\/15\/2023\/07\/wd-vgs-logo-black.svg",
+                                            "width": 174,
+                                            "height": 40
+                                        },
+                                        "type": "image"
+                                    },
+                                    "width": {
+                                        "id": "width",
+                                        "value": 174,
+                                        "type": "slider"
+                                    },
+                                    "sticky_notice": {
+                                        "id": "sticky_notice",
+                                        "value": "",
+                                        "type": "notice"
+                                    },
+                                    "sticky_image": {
+                                        "id": "sticky_image",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "sticky_width": {
+                                        "id": "sticky_width",
+                                        "value": 150,
+                                        "type": "slider"
+                                    },
+                                    "width_height": {
+                                        "id": "width_height",
+                                        "value": true,
+                                        "type": "switcher"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "gu1bzwnbejt8zo762omk",
+                                "type": "space",
+                                "params": {
+                                    "width": {
+                                        "id": "width",
+                                        "value": 30,
+                                        "type": "slider"
+                                    },
+                                    "css_class": {
+                                        "id": "css_class",
+                                        "value": "",
+                                        "type": "text"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column12",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "agdncvmdzujcjbcf2ra7",
+                                "type": "mainmenu",
+                                "params": {
+                                    "menu_id": {
+                                        "id": "menu_id",
+                                        "value": "main-navigation",
+                                        "type": "options"
+                                    },
+                                    "full_screen": {
+                                        "id": "full_screen",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "text",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "menu_style": {
+                                        "id": "menu_style",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "menu_align": {
+                                        "id": "menu_align",
+                                        "value": "left",
+                                        "type": "selector"
+                                    },
+                                    "items_gap": {
+                                        "id": "items_gap",
+                                        "value": "m",
+                                        "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "inline": {
+                                        "id": "inline",
+                                        "value": false,
+                                        "type": "switcher"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column13",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "nzjl6a42y6oztn6o3ym2",
+                                "type": "social",
+                                "params": {
+                                    "type": {
+                                        "id": "type",
+                                        "value": "follow",
+                                        "type": "selector"
+                                    },
+                                    "el_class": {
+                                        "id": "el_class",
+                                        "value": "",
+                                        "type": "text"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "colored-alt",
+                                        "type": "selector"
+                                    },
+                                    "form": {
+                                        "id": "form",
+                                        "value": "circle",
+                                        "type": "selector"
+                                    },
+                                    "size": {
+                                        "id": "size",
+                                        "value": "",
+                                        "type": "options"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "dark",
+                                        "type": "selector"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "10ffbnj6xv5e3nq2q175",
+                                "type": "space",
+                                "params": {
+                                    "width": {
+                                        "id": "width",
+                                        "value": 20,
+                                        "type": "slider"
+                                    },
+                                    "css_class": {
+                                        "id": "css_class",
+                                        "value": "",
+                                        "type": "text"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "t5n74kic6h66b0udk5km",
+                                "type": "search",
+                                "params": {
+                                    "display": {
+                                        "id": "display",
+                                        "value": "full-screen-2",
+                                        "type": "selector"
+                                    },
+                                    "popular_requests": {
+                                        "id": "popular_requests",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "categories_dropdown": {
+                                        "id": "categories_dropdown",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "cat_selector_style": {
+                                        "id": "cat_selector_style",
+                                        "value": "bordered",
+                                        "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "ajax": {
+                                        "id": "ajax",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "ajax_result_count": {
+                                        "id": "ajax_result_count",
+                                        "value": 20,
+                                        "type": "slider"
+                                    },
+                                    "post_type": {
+                                        "id": "post_type",
+                                        "value": "product",
+                                        "type": "selector"
+                                    },
+                                    "search_style": {
+                                        "id": "search_style",
+                                        "value": "with-bg-2",
+                                        "type": "selector"
+                                    },
+                                    "form_shape": {
+                                        "id": "form_shape",
+                                        "value": "35",
+                                        "type": "options"
+                                    },
+                                    "form_height": {
+                                        "id": "form_height",
+                                        "value": 42,
+                                        "type": "slider"
+                                    },
+                                    "form_color": {
+                                        "id": "form_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_placeholder_color": {
+                                        "id": "form_placeholder_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color": {
+                                        "id": "form_brd_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color_focus": {
+                                        "id": "form_brd_color_focus",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_bg": {
+                                        "id": "form_bg",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "6vuyaxyn22gghldzz3lg",
+                                "type": "space",
+                                "params": {
+                                    "width": {
+                                        "id": "width",
+                                        "value": 20,
+                                        "type": "slider"
+                                    },
+                                    "css_class": {
+                                        "id": "css_class",
+                                        "value": "",
+                                        "type": "text"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "9a9ytjhktkvn3f7w6ase",
+                                "type": "divider",
+                                "params": {
+                                    "full_height": {
+                                        "id": "full_height",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "css_class": {
+                                        "id": "css_class",
+                                        "value": "",
+                                        "type": "text"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "cl78ohhjz57m7evlfrvo",
+                                "type": "space",
+                                "params": {
+                                    "width": {
+                                        "id": "width",
+                                        "value": 20,
+                                        "type": "slider"
+                                    },
+                                    "css_class": {
+                                        "id": "css_class",
+                                        "value": "",
+                                        "type": "text"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "7e0zga650k8jxnd1qh5y",
+                                "type": "account",
+                                "params": {
+                                    "with_username": {
+                                        "id": "with_username",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "login_dropdown": {
+                                        "id": "login_dropdown",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "form_display": {
+                                        "id": "form_display",
+                                        "value": "side",
+                                        "type": "selector"
+                                    },
+                                    "display": {
+                                        "id": "display",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "sgh13cr4atjpmwfbyyy0",
+                                "type": "wishlist",
+                                "params": {
+                                    "design": {
+                                        "id": "design",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    },
+                                    "hide_product_count": {
+                                        "id": "hide_product_count",
+                                        "value": false,
+                                        "type": "switcher"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "n1h6058thy8efjw1bjh2",
+                                "type": "cart",
+                                "params": {
+                                    "position": {
+                                        "id": "position",
+                                        "value": "side",
+                                        "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "design": {
+                                        "id": "design",
+                                        "value": "",
+                                        "type": "selector"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "cart",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "column_mobile5",
+                        "type": "column",
+                        "content": [
+                            {
+                                "id": "xoog4jlwd91cgj6ajyu0",
+                                "type": "burger",
+                                "params": {
+                                    "close_btn": {
+                                        "id": "close_btn",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "search_form": {
+                                        "id": "search_form",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "post_type": {
+                                        "id": "post_type",
+                                        "value": "any",
+                                        "type": "selector"
+                                    },
+                                    "show_wishlist": {
+                                        "id": "show_wishlist",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "show_compare": {
+                                        "id": "show_compare",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "show_account": {
+                                        "id": "show_account",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "show_html_block": {
+                                        "id": "show_html_block",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "languages": {
+                                        "id": "languages",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "show_language_flag": {
+                                        "id": "show_language_flag",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "categories_menu": {
+                                        "id": "categories_menu",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "primary_menu_title": {
+                                        "id": "primary_menu_title",
+                                        "value": "",
+                                        "type": "text"
+                                    },
+                                    "secondary_menu_title": {
+                                        "id": "secondary_menu_title",
+                                        "value": "",
+                                        "type": "text"
+                                    },
+                                    "menu_id": {
+                                        "id": "menu_id",
+                                        "value": "category-mobile-menu",
+                                        "type": "options"
+                                    },
+                                    "tabs_swap": {
+                                        "id": "tabs_swap",
+                                        "value": true,
+                                        "type": "switcher"
+                                    },
+                                    "position": {
+                                        "id": "position",
+                                        "value": "left",
+                                        "type": "selector"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "6",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "s1vjglw4ujrk15w0yu8v",
+                                "type": "mobilesearch",
+                                "params": {
+                                    "display": {
+                                        "id": "display",
+                                        "value": "full-screen-2",
+                                        "type": "selector"
+                                    },
+                                    "post_type": {
+                                        "id": "post_type",
+                                        "value": "product",
+                                        "type": "selector"
+                                    },
+                                    "search_style": {
+                                        "id": "search_style",
+                                        "value": "with-bg-2",
+                                        "type": "selector"
+                                    },
+                                    "form_shape": {
+                                        "id": "form_shape",
+                                        "value": "",
+                                        "type": "options"
+                                    },
+                                    "form_height": {
+                                        "id": "form_height",
+                                        "value": 42,
+                                        "type": "slider"
+                                    },
+                                    "form_color": {
+                                        "id": "form_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_placeholder_color": {
+                                        "id": "form_placeholder_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color": {
+                                        "id": "form_brd_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_brd_color_focus": {
+                                        "id": "form_brd_color_focus",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "form_bg": {
+                                        "id": "form_bg",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "icon_design": {
+                                        "id": "icon_design",
+                                        "value": "1",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "default",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    }
+                                }
+                            },
+                            {
+                                "id": "8mdgx0xuzw4a4vcjb4gi",
+                                "type": "cart",
+                                "params": {
+                                    "position": {
+                                        "id": "position",
+                                        "value": "side",
+                                        "type": "selector"
+                                    },
+                                    "bg_overlay": {
+                                        "id": "bg_overlay",
+                                        "value": false,
+                                        "type": "switcher"
+                                    },
+                                    "design": {
+                                        "id": "design",
+                                        "value": "icon",
+                                        "type": "selector"
+                                    },
+                                    "style": {
+                                        "id": "style",
+                                        "value": "6",
+                                        "type": "selector"
+                                    },
+                                    "wrap_type": {
+                                        "id": "wrap_type",
+                                        "value": "icon_only",
+                                        "type": "selector"
+                                    },
+                                    "color": {
+                                        "id": "color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "hover_color": {
+                                        "id": "hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_color": {
+                                        "id": "bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "bg_hover_color": {
+                                        "id": "bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_color": {
+                                        "id": "icon_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_hover_color": {
+                                        "id": "icon_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_color": {
+                                        "id": "icon_bg_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_bg_hover_color": {
+                                        "id": "icon_bg_hover_color",
+                                        "value": "",
+                                        "type": "color"
+                                    },
+                                    "icon_type": {
+                                        "id": "icon_type",
+                                        "value": "cart",
+                                        "type": "selector"
+                                    },
+                                    "custom_icon": {
+                                        "id": "custom_icon",
+                                        "value": "",
+                                        "type": "image"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "params": {
+                    "row_columns": {
+                        "id": "row_columns",
+                        "value": "3",
+                        "type": "selector"
+                    },
+                    "flex_layout": {
+                        "id": "flex_layout",
+                        "value": "flex-middle",
+                        "type": "selector"
+                    },
+                    "height": {
+                        "id": "height",
+                        "value": 90,
+                        "type": "slider"
+                    },
+                    "mobile_height": {
+                        "id": "mobile_height",
+                        "value": 55,
+                        "type": "slider"
+                    },
+                    "hide_desktop": {
+                        "id": "hide_desktop",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "hide_mobile": {
+                        "id": "hide_mobile",
+                        "value": false,
+                        "type": "switcher"
+                    },
+                    "sticky": {
+                        "id": "sticky",
+                        "value": true,
+                        "type": "switcher"
+                    },
+                    "sticky_height": {
+                        "id": "sticky_height",
+                        "value": 70,
+                        "type": "slider"
+                    },
+                    "color_scheme": {
+                        "id": "color_scheme",
+                        "value": "dark",
+                        "type": "selector"
+                    },
+                    "background": {
+                        "id": "background",
+                        "value": "",
+                        "type": "bg"
+                    },
+                    "border": {
+                        "id": "border",
+                        "value": "",
+                        "type": "border"
+                    },
+                    "shadow": {
+                        "id": "shadow",
+                        "value": true,
+                        "type": "switcher"
+                    }
+                }
+            }
+        ]
+    },
+    "settings": {
+        "overlap": {
+            "id": "overlap",
+            "value": false,
+            "type": "switcher"
+        },
+        "boxed": {
+            "id": "boxed",
+            "value": false,
+            "type": "switcher"
+        },
+        "full_width": {
+            "id": "full_width",
+            "value": true,
+            "type": "switcher"
+        },
+        "dropdowns_dark": {
+            "id": "dropdowns_dark",
+            "value": false,
+            "type": "switcher"
+        },
+        "sticky_shadow": {
+            "id": "sticky_shadow",
+            "value": true,
+            "type": "switcher"
+        },
+        "hide_on_scroll": {
+            "id": "hide_on_scroll",
+            "value": false,
+            "type": "switcher"
+        },
+        "sticky_effect": {
+            "id": "sticky_effect",
+            "value": "stick",
+            "type": "selector"
+        },
+        "sticky_clone": {
+            "id": "sticky_clone",
+            "value": true,
+            "type": "switcher"
+        },
+        "sticky_height": {
+            "id": "sticky_height",
+            "value": 60,
+            "type": "slider"
+        }
+    }
+}

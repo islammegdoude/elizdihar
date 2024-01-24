@@ -1,0 +1,1 @@
+.wd-sticky-loader{position:absolute;inset:70px 0;display:flex;align-items:flex-start;justify-content:center;pointer-events:none;opacity:0}.wd-sticky-loader .wd-loader{position:sticky;top:calc(50% - 15px)}.wd-sticky-loader.wd-loading,.site-content.wd-loading .wd-sticky-loader.wd-content-loader{opacity:1;transition:all .25s ease;--wd-anim-state: running}

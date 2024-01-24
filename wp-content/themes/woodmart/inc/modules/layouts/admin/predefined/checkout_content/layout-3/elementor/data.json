@@ -1,0 +1,99 @@
+[
+	{
+    "id": "57a3c445",
+    "settings": {
+      "structure": "33",
+      "flex_direction": "column",
+      "flex_gap": {
+        "size": 25,
+        "column": "25",
+        "row": "25",
+        "unit": "px",
+        "isLinked": true
+      },
+      "boxed_width": {
+        "unit": "%",
+        "size": 50,
+        "sizes": []
+      },
+      "boxed_width_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+      },
+      "boxed_width_mobile": {
+        "unit": "%",
+        "size": 100,
+        "sizes": []
+      },
+      "scroll_y": -80,
+      "container_sticky_offset": 50
+    },
+    "elements": [
+      {
+        "id": "3baf21",
+        "settings": {
+          "scroll_y": -80
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_wc_notices",
+        "elType": "widget"
+      },
+      {
+        "id": "ec06bd2",
+        "settings": {
+          "scroll_y": -80
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_checkout_login_form",
+        "elType": "widget"
+      },
+      {
+        "id": "633d93c3",
+        "settings": {
+          "_element_width": "auto",
+          "scroll_y": -80,
+          "alignment": "center"
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_checkout_coupon_form",
+        "elType": "widget"
+      },
+      {
+        "id": "256c0acc",
+        "settings": {
+          "alignment": "center",
+          "style": "default",
+          "_padding": {
+            "unit": "px",
+            "top": "30",
+            "right": "30",
+            "bottom": "30",
+            "left": "30",
+            "isLinked": true
+          },
+          "scroll_y": -80,
+          "_background_background": "classic",
+          "_background_color": "#2E6BC60A",
+          "_border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          }
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_single_product_shipping_progress_bar",
+        "elType": "widget"
+      }
+    ],
+    "isInner": false,
+    "elType": "container"
+  }
+]

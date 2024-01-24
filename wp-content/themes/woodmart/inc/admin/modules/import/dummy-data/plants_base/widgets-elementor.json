@@ -1,0 +1,48 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "Categories",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            }
+        }
+    },
+    "filters-area": {
+        "widgets": {
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Size",
+                "attribute": "size",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-6": {
+                "title": "Pot color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "on",
+                "checkboxes": "off",
+                "search_by_filters": ""
+            }
+        }
+    }
+}

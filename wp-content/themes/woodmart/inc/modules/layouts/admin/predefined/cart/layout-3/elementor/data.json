@@ -1,0 +1,285 @@
+[
+	{
+        "id": "108ebb73",
+        "settings": {
+          "flex_gap": {
+            "size": null,
+            "column": "",
+            "row": "",
+            "unit": "px",
+            "isLinked": true
+          },
+          "wd_section_stretch": "stretch-content",
+          "margin": {
+            "unit": "px",
+            "top": "-40",
+            "right": "0",
+            "bottom": "30",
+            "left": "0",
+            "isLinked": false
+          },
+          "background_background": "classic",
+          "margin_tablet": {
+            "unit": "px",
+            "top": "-40",
+            "right": "0",
+            "bottom": "20",
+            "left": "0",
+            "isLinked": false
+          },
+          "container_sticky_offset": 50,
+          "scroll_y": -80
+        },
+        "elements": [
+          {
+            "id": "618ed7bd",
+            "settings": {
+              "full_width": "yes",
+              "scroll_y": -80,
+              "_background_background": "classic"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_page_title",
+            "elType": "widget"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      },
+      {
+        "id": "4848d163",
+        "settings": {
+          "margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "40",
+            "left": "0",
+            "isLinked": false
+          },
+          "flex_gap": {
+            "size": 40,
+            "column": "40",
+            "row": "30",
+            "unit": "px",
+            "isLinked": false
+          },
+          "structure": "22",
+          "margin_tablet": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "30",
+            "left": "0",
+            "isLinked": false
+          },
+          "flex_direction": "row",
+          "flex_direction_tablet": "column",
+          "container_sticky_offset": 50,
+          "scroll_y": -80
+        },
+        "elements": [
+          {
+            "id": "7ab726f2",
+            "settings": {
+              "_column_size": 66,
+              "width": {
+                "size": 66.6,
+                "unit": "%"
+              },
+              "column_sticky_offset": 50,
+              "scroll_y": -80,
+              "width_tablet": {
+                "size": 100,
+                "unit": "%"
+              },
+              "content_width": "full",
+              "container_sticky_offset": 50
+            },
+            "elements": [
+              {
+                "id": "1e3a7405",
+                "settings": {
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_wc_notices",
+                "elType": "widget"
+              },
+              {
+                "id": "6524eb6a",
+                "settings": {
+                  "scroll_y": -80
+                },
+                "elements": [],
+                "isInner": false,
+                "widgetType": "wd_cart_table",
+                "elType": "widget"
+              }
+            ],
+            "isInner": true,
+            "elType": "container"
+          },
+          {
+            "id": "d84fb7e",
+            "settings": {
+              "_column_size": 33,
+              "width": {
+                "size": 33.4,
+                "unit": "%"
+              },
+              "column_sticky_offset": 50,
+              "scroll_y": -80,
+              "width_tablet": {
+                "size": 100,
+                "unit": "%"
+              },
+              "content_width": "full",
+              "container_sticky_offset": 50
+            },
+            "elements": [
+              {
+                "id": "457cdae5",
+                "settings": {
+                  "border_border": "solid",
+                  "border_width": {
+                    "unit": "px",
+                    "top": "3",
+                    "right": "3",
+                    "bottom": "3",
+                    "left": "3",
+                    "isLinked": true
+                  },
+                  "border_color": "#EFEFEF",
+                  "padding": {
+                    "unit": "px",
+                    "top": "25",
+                    "right": "25",
+                    "bottom": "25",
+                    "left": "25",
+                    "isLinked": true
+                  },
+                  "flex_direction": "row",
+                  "flex_gap": {
+                    "size": null,
+                    "column": "",
+                    "row": "",
+                    "unit": "px",
+                    "isLinked": true
+                  },
+                  "content_width": "full",
+                  "container_sticky_offset": 50,
+                  "scroll_y": -80
+                },
+                "elements": [
+                  {
+                    "id": "3330c7bf",
+                    "settings": {
+                      "_column_size": 100,
+                      "width": {
+                        "size": null,
+                        "unit": "%"
+                      },
+                      "column_sticky_offset": 50,
+                      "scroll_y": -80,
+                      "content_width": "full",
+                      "container_sticky_offset": 50
+                    },
+                    "elements": [
+                      {
+                        "id": "2ebe354e",
+                        "settings": {
+                          "button_alignment": "full-width",
+                          "scroll_y": -80
+                        },
+                        "elements": [],
+                        "isInner": false,
+                        "widgetType": "wd_cart_totals",
+                        "elType": "widget"
+                      }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                  }
+                ],
+                "isInner": true,
+                "elType": "container"
+              }
+            ],
+            "isInner": true,
+            "elType": "container"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      },
+      {
+        "id": "311ea3f0",
+        "settings": {
+          "reverse_order_mobile": "reverse-mobile",
+          "reverse_order_tablet": "reverse-tablet",
+          "flex_gap": {
+            "size": null,
+            "column": "",
+            "row": "",
+            "unit": "px",
+            "isLinked": true
+          },
+          "container_sticky_offset": 50,
+          "scroll_y": -80
+        },
+        "elements": [
+          {
+            "id": "5328350f",
+            "settings": {
+              "subtitle": "",
+              "title": "YOU MAY BE INTERESTED IN…",
+              "after_title": "",
+              "align": "left",
+              "scroll_y": -80,
+              "style": "simple",
+              "color": "primary"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_title",
+            "elType": "widget"
+          },
+          {
+            "id": "d9f0f63",
+            "settings": {
+              "layout": "carousel",
+              "columns": {
+                "unit": "px",
+                "size": 3,
+                "sizes": []
+              },
+              "items_per_page": 5,
+              "hide_pagination_control": "yes",
+              "scroll_y": -80,
+              "post_type": "cross-sells",
+              "img_size": "medium_large",
+              "slides_per_view": {
+                "unit": "px",
+                "size": 4,
+                "sizes": []
+              },
+              "sync_parent_id": "wd_65982f4604762",
+              "slides_per_view_tablet": {
+                "unit": "px",
+                "size": 3,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_products",
+            "elType": "widget"
+          }
+        ],
+        "isInner": false,
+        "elType": "container"
+      }
+]

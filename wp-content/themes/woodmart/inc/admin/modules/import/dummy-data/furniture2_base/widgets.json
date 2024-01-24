@@ -1,0 +1,72 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "categories-2": {
+                "title": "Categories",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "woodmart-recent-posts-2": {
+                "title": "Recent Posts",
+                "limit": 2,
+                "offset": 0,
+                "order": "DESC",
+                "orderby": "date",
+                "category": "all",
+                "date": true,
+                "comment_count": true,
+                "thumb": true,
+                "thumb_height": 60,
+                "thumb_width": 70
+            },
+            "recent-comments-3": {
+                "title": "Recent Comments",
+                "number": 5
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "inherit",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Stock status",
+                "instock": "1",
+                "onsale": "1",
+                "onbackorder": "1"
+            }
+        }
+    }
+}

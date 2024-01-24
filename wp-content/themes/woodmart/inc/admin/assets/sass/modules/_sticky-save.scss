@@ -1,0 +1,100 @@
+// ------------------------------------------------------------------------------------------------
+// STICKY SAVE BUTTON
+// ------------------------------------------------------------------------------------------------
+
+// @extend %sticky-save-button;
+
+%sticky-save-button {
+	position: sticky;
+	bottom: 0;
+	z-index: $z-layer-2;
+	margin-top: 30px;
+	margin-bottom: -19px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid var(--xts-option-border-color);
+	background-color: #FFF;
+
+	:is(
+	.button,
+	[type="submit"]) {
+		padding-inline-start: 30px;
+	}
+
+	&:before {
+		position: absolute;
+		top: 15px;
+		inset-inline-start: 10px;
+		height: 35px;
+		line-height: 35px;
+		z-index: $z-layer-1;
+		color: #FFF;
+		pointer-events: none;
+		@include font-icon-base;
+	}
+
+	:has(.wp-picker-active) & {
+		 position: static;
+	}
+}
+
+// @extend %sticky-save-button-delete;
+
+%sticky-save-button-delete {
+	@extend %xts-inline-button;
+
+	&.delete {
+		@extend %xts-inline-button-warning;
+	}
+
+	&:before {
+		@include font-icon($xts-icon-delete-bin);
+	}
+}
+
+// @extend %sticky-save-button-icon;
+
+%sticky-save-button-icon {
+
+	[type="submit"] {
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkYiIHZpZXdCb3g9IjAgMCAxNCAxNCI+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTMuMTQ2LjE0NkEuNS41IDAgMCAxIDMuNSAwaDlBMS41IDEuNSAwIDAgMSAxNCAxLjV2MTFhMS41IDEuNSAwIDAgMS0xLjUgMS41aC0xMUExLjUgMS41IDAgMCAxIDAgMTIuNXYtOWEuNS41IDAgMCAxIC4xNDYtLjM1NGwzLTNaTTEwIDFINXYzaDVWMVpNNCAxdjMuNWEuNS41IDAgMCAwIC41LjVoNmEuNS41IDAgMCAwIC41LS41VjFoMS41YS41LjUgMCAwIDEgLjUuNXYxMWEuNS41IDAgMCAxLS41LjVIMTFWOC41YS41LjUgMCAwIDAtLjUtLjVoLTdhLjUuNSAwIDAgMC0uNS41VjEzSDEuNWEuNS41IDAgMCAxLS41LS41VjMuNzA3TDMuNzA3IDFINFptNiAxMkg0VjloNnY0WiIgY2xpcC1ydWxlPSJldmVub2RkIi8+CiAgPC9nPgogIDxkZWZzPgogICAgPGNsaXBQYXRoIGlkPSJhIj4KICAgICAgPHBhdGggZD0iTTAgMGgxNHYxNEgweiIvPgogICAgPC9jbGlwUGF0aD4KICA8L2RlZnM+Cjwvc3ZnPg==);
+		background-size: 13px;
+		background-repeat: no-repeat;
+		background-position: 11px center;
+	}
+
+	// .rtl & {
+
+	// 	[type="submit"] {
+	// 		background-position: calc(100% - 8px) center;
+	// 	}
+	// }
+}
+
+// @extend %sticky-add-button-icon;
+
+%sticky-add-button-icon {
+
+	[type="submit"] {
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRkYiIHZpZXdCb3g9IjAgMCAxNCAxNCI+CiAgPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTcuNS41NGEuNS41IDAgMCAwLTEgMFY2LjVoLTZhLjUuNSAwIDAgMCAwIDFoNnY2LjA0YS41LjUgMCAwIDAgMSAwVjcuNWg2YS41LjUgMCAwIDAgMC0xaC02Vi41NFoiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgogIDwvZz4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iYSI+CiAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMTR2MTRIMHoiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgo8L3N2Zz4=);
+		background-size: 13px;
+		background-repeat: no-repeat;
+		background-position: 11px center;
+
+		// .rtl & {
+
+		// 	[type="submit"] {
+		// 		background-position: calc(100% - 8px) center;
+		// 	}
+		// }
+	}
+}
+
+// @extend %sticky-button-rtl;
+
+%sticky-button-rtl {
+
+	[type="submit"] {
+		background-position: calc(100% - 8px) center;
+	}
+}

@@ -1,0 +1,40 @@
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE OPTIONS
+// ------------------------------------------------------------------------------------------------
+
+@if $int-wpbakery {
+
+	.vc_table {
+
+		.vc-c-icon-layout_default {
+
+			&:before {
+				@include font-icon($xts-icon-desktop);
+			}
+		}
+
+		:is(
+		.vc-c-icon-layout_landscape-tablets,
+		.vc-c-icon-layout_portrait-tablets) {
+
+			&:before {
+				@include font-icon($xts-icon-tablet);
+			}
+		}
+
+		.vc-c-icon-layout_landscape-tablets {
+
+			&:before {
+				display: block;
+				transform: rotate(270deg);
+			}
+		}
+
+		.vc-c-icon-layout_portrait-smartphones {
+
+			&:before {
+				@include font-icon($xts-icon-phone);
+			}
+		}
+	}
+}

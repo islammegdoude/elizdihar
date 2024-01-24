@@ -1,0 +1,79 @@
+{
+    "sidebar-1": {
+        "widgets": {
+            "block-2": {
+                "content": "<!-- wp:search \/-->"
+            },
+            "block-3": {
+                "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts<\/h2><!-- \/wp:heading --><!-- wp:latest-posts \/--><\/div><!-- \/wp:group -->"
+            },
+            "block-4": {
+                "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments<\/h2><!-- \/wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} \/--><\/div><!-- \/wp:group -->"
+            },
+            "block-5": {
+                "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives<\/h2><!-- \/wp:heading --><!-- wp:archives \/--><\/div><!-- \/wp:group -->"
+            },
+            "block-6": {
+                "content": "<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories<\/h2><!-- \/wp:heading --><!-- wp:categories \/--><\/div><!-- \/wp:group -->"
+            }
+        }
+    },
+    "sidebar-shop": {
+        "widgets": {
+            "woocommerce_price_filter-2": {
+                "title": "Filter by price"
+            },
+            "woodmart-woocommerce-layered-nav-2": {
+                "title": "Filter by brand",
+                "attribute": "brand",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-3": {
+                "title": "Color",
+                "attribute": "color",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "woodmart-woocommerce-layered-nav-4": {
+                "title": "Materials",
+                "attribute": "materials",
+                "category": [
+                    "all"
+                ],
+                "query_type": "and",
+                "display": "list",
+                "size": "normal",
+                "style": "inherit",
+                "shape": "round",
+                "labels": "on",
+                "tooltips": "off",
+                "search_by_filters": ""
+            },
+            "wd-widget-stock-status-2": {
+                "title": "Product Status",
+                "instock": "1",
+                "onsale": "1",
+                "onbackorder": "1"
+            }
+        }
+    }
+}

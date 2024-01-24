@@ -1,0 +1,140 @@
+// ------------------------------------------------------------------------------------------------
+// WIDGET CONTENT
+// ------------------------------------------------------------------------------------------------
+
+@if $general {
+
+	.widget-content {
+
+		input[type="checkbox"] {
+
+			+ label {
+				margin-bottom: 0;
+			}
+		}
+
+		label {
+			display: inline-block;
+			margin-bottom: 4px;
+		}
+
+		> .wd-widget-field {
+			margin-block: 8px;
+			// margin-top: 8px;
+			// margin-bottom: 8px;
+
+			.description {
+				padding: 2px 0 0 0 !important;
+				font-size: 12px;
+			}
+		}
+
+		.select2 {
+			max-width: 100% !important;
+
+			&.select2-container--xts {
+
+				.select2-selection {
+					border-color: #8C8F94 !important;
+				}
+			}
+		}
+
+		[class*="wd-type-attach_image"] {
+
+			label {
+				width: 100%;
+			}
+
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+
+	.wd-widget-field {
+
+		&.wd-type-checkbox {
+			display: flex;
+			align-items: center;
+			// margin-top: 12px;
+			// margin-bottom: 12px;
+			margin-block: 12px;
+
+			label {
+				margin-bottom: 1px;
+
+				margin-inline-end: 9px;
+
+				&:after {
+					display: none;
+				}
+			}
+
+			input[type*=checkbox] {
+				margin: 0;
+			}
+		}
+	}
+
+	.block-editor-block-list__layout {
+
+		.widget-content {
+
+			&:has(.wd-widget-field) {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 14px;
+	
+				> .wd-widget-field {
+					// flex-basis: calc(50% - 8px);
+					// flex-grow: 1;
+					flex: 1 1 calc(50% - 8px);
+					margin: 0;
+					// padding: 0; // NOTE RESET XTS GRID PADDING
+					min-width: 250px;
+	
+					input[type=number],
+					select {
+						min-height: 35px;
+					}
+	
+					br {
+						display: none;
+					}
+					
+					> label {
+						line-height: 1;
+						margin-bottom: 7px;
+					}
+				}
+	
+				> :is(
+				.wd-type-select2,
+				.wd-type-checkbox,
+				[class*="wd-type-attach_image"]) {
+					flex-basis: 100%;
+				}
+
+				.wd-type-attach_image {
+					margin-right: 5px;
+				}
+	
+				> .wd-type-checkbox {
+	
+					label {
+						margin-bottom: 0;
+					}
+				}
+	
+				> .wd-type-select2 {
+					
+					li {
+						margin-bottom: 0; // NOTE CHECK AFTER GUTENBERG UPDATE
+					}
+				}
+			}
+		}
+	}
+
+} // END IF

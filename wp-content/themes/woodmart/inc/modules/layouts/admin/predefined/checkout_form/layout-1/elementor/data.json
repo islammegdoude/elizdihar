@@ -1,0 +1,251 @@
+[
+	{
+    "id": "1edde5cc",
+    "settings": {
+      "boxed_width": {
+        "unit": "px",
+        "size": 780,
+        "sizes": []
+      },
+      "margin": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "40",
+        "left": "0",
+        "isLinked": false
+      },
+      "flex_gap": {
+        "size": null,
+        "column": "",
+        "row": "",
+        "unit": "px",
+        "isLinked": true
+      },
+      "container_sticky_offset": 50,
+      "scroll_y": -80
+    },
+    "elements": [
+      {
+        "id": "31b346ac",
+        "settings": {
+          "scroll_y": -80
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_checkout_billing_details_form",
+        "elType": "widget"
+      },
+      {
+        "id": "234c9eaa",
+        "settings": {
+          "scroll_y": -80
+        },
+        "elements": [],
+        "isInner": false,
+        "widgetType": "wd_checkout_shipping_details_from",
+        "elType": "widget"
+      }
+    ],
+    "isInner": false,
+    "elType": "container"
+  },
+  {
+    "id": "42d901bf",
+    "settings": {
+      "boxed_width": {
+        "unit": "px",
+        "size": 780,
+        "sizes": []
+      },
+      "background_background": "classic",
+      "margin": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "40",
+        "left": "0",
+        "isLinked": false
+      },
+      "margin_tablet": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "20",
+        "left": "0",
+        "isLinked": false
+      },
+      "margin_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "flex_gap": {
+        "size": null,
+        "column": "",
+        "row": "",
+        "unit": "px",
+        "isLinked": true
+      },
+      "container_sticky_offset": 50,
+      "scroll_y": -80
+    },
+    "elements": [
+      {
+        "id": "17d749e6",
+        "settings": {
+          "_column_size": 100,
+          "width": {
+            "size": null,
+            "unit": "%"
+          },
+          "background_background": "classic",
+          "background_color": "#F8F8F8",
+          "padding": {
+            "unit": "px",
+            "top": "20",
+            "right": "30",
+            "bottom": "20",
+            "left": "30",
+            "isLinked": false
+          },
+          "column_sticky_offset": 50,
+          "scroll_y": -80,
+          "content_width": "full",
+          "container_sticky_offset": 50
+        },
+        "elements": [
+          {
+            "id": "615ed69a",
+            "settings": {
+              "subtitle": "",
+              "title": "YOUR ORDER",
+              "after_title": "",
+              "title_typography_typography": "custom",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "scroll_y": -80
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_title",
+            "elType": "widget"
+          },
+          {
+            "id": "d31bb44",
+            "settings": {
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "margin": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "30",
+                "left": "0",
+                "isLinked": false
+              },
+              "padding": {
+                "unit": "px",
+                "top": "10",
+                "right": "20",
+                "bottom": "10",
+                "left": "20",
+                "isLinked": false
+              },
+              "padding_mobile": {
+                "unit": "px",
+                "top": "0",
+                "right": "20",
+                "bottom": "0",
+                "left": "20",
+                "isLinked": false
+              },
+              "flex_direction": "row",
+              "flex_align_items": "stretch",
+              "flex_gap": {
+                "size": 10,
+                "column": "10",
+                "row": "10",
+                "unit": "px"
+              },
+              "content_width": "full",
+              "container_sticky_offset": 50,
+              "scroll_y": -80
+            },
+            "elements": [
+              {
+                "id": "17400cef",
+                "settings": {
+                  "_column_size": 100,
+                  "width": {
+                    "size": null,
+                    "unit": "%"
+                  },
+                  "column_sticky_offset": 50,
+                  "scroll_y": -80,
+                  "content_width": "full",
+                  "container_sticky_offset": 50
+                },
+                "elements": [
+                  {
+                    "id": "25a3fe12",
+                    "settings": {
+                      "scroll_y": -80
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "wd_checkout_order_review",
+                    "elType": "widget"
+                  }
+                ],
+                "isInner": true,
+                "elType": "container"
+              }
+            ],
+            "isInner": true,
+            "elType": "container"
+          },
+          {
+            "id": "4ffd5d8d",
+            "settings": {
+              "scroll_y": -80,
+              "button_alignment": "full-width",
+              "payment_description_padding": {
+                "unit": "px",
+                "top": "15",
+                "right": "15",
+                "bottom": "15",
+                "left": "15",
+                "isLinked": true
+              },
+              "payment_description_background-color": "#FFFFFF",
+              "terms_conditions_padding": {
+                "unit": "px",
+                "top": "15",
+                "right": "15",
+                "bottom": "15",
+                "left": "15",
+                "isLinked": true
+              },
+              "terms_conditions_background_color": "#FFFFFF"
+            },
+            "elements": [],
+            "isInner": false,
+            "widgetType": "wd_checkout_payment_methods",
+            "elType": "widget"
+          }
+        ],
+        "isInner": true,
+        "elType": "container"
+      }
+    ],
+    "isInner": false,
+    "elType": "container"
+  }
+]

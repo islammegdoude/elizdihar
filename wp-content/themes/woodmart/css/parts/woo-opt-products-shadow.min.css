@@ -1,0 +1,1 @@
+.wd-products-with-shadow,.wd-products-with-shadow .wd-product{--wd-prod-shadow: 0 0 4px rgba(0,0,0,0.12)}.wd-products-with-shadow:not(.products-bordered-grid) .product-wrapper{box-shadow:var(--wd-prod-shadow)}

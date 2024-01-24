@@ -1,0 +1,71 @@
+// ------------------------------------------------------------------------------------------------
+// CHECKOUT FIELDS MANAGER
+// ------------------------------------------------------------------------------------------------
+
+@if $page-checkout-fields-manager {
+
+	.woocommerce_page_xts-checkout-fields-page {
+		position: relative; // NOTE FOR LOADER
+
+		@include xts-bg-loader;
+
+		&.xts-loading {
+			@include xts-act-bg-loader;
+		}
+
+		tr {
+
+			&.ui-sortable-helper {
+				display: flex;
+				background-color: #f6f7f7;
+
+				.column-sort {
+					max-width: 39px;
+				}
+
+				td {
+					width: 20%;
+				}
+			}
+		}
+
+		td {
+			vertical-align: middle;
+		}
+
+		.column-sort {
+			width: 40px;
+			cursor: move;
+
+			&.manage-column {
+				font-size: 0;
+			}
+
+			.xts-ui-sortable-handle {
+
+				&:before {
+					content: '\f333';
+					font-family: Dashicons;
+				}
+			}
+		}
+	}
+} // END IF
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+@media (min-width: 783px) {
+
+	@if $page-checkout-fields-manager {
+
+		.woocommerce_page_xts-checkout-fields-page {
+
+			.xts-ui-sortable-handle {
+				display: flex;
+				justify-content: center;
+			}
+		}
+	} // END IF
+}

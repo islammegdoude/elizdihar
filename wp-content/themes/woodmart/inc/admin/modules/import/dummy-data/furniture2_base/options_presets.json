@@ -1,0 +1,16 @@
+{
+    "2": {
+        "pages-background": {
+            "color": "rgb(255,255,255)",
+            "url": "",
+            "id": "",
+            "repeat": "",
+            "size": "",
+            "attachment": "",
+            "position": ""
+        },
+        "site_width": "custom",
+        "site_custom_width": "1025",
+        "fields_to_save": "pages-background,site_width,site_custom_width"
+    }
+}

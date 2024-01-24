@@ -1,0 +1,22 @@
+// ------------------------------------------------------------------------------------------------
+// TABLE CONTROLS
+// ------------------------------------------------------------------------------------------------
+
+@if $cont-table-control {
+
+	.xts-table-controls {
+		display: flex;
+		margin-bottom: 10px;
+
+		label {
+			font-weight: 600;
+		}
+
+		> div {
+
+			&:not(:last-child) {
+				margin-inline-end: 15px;
+			}
+		}
+	}
+} // END IF

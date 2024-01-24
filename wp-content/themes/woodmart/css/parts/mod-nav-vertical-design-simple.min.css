@@ -1,0 +1,1 @@
+.wd-nav-vertical.wd-design-simple{gap:var(--nav-gap);--nav-drop-sp: 20px}.wd-nav-vertical.wd-design-simple>li>a{padding:0;line-height:1}.wd-nav-vertical.wd-design-simple>li:is(.wd-opened,:hover)>a{color:var(--wd-primary-color)}.wd-nav-vertical.wd-design-simple:not(:first-child){padding-top:var(--nav-gap)}

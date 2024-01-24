@@ -1,0 +1,1 @@
+.wd-dynamic-discounts{position:relative}.wd-dynamic-discounts table{margin-bottom:0}.wd-dynamic-discounts thead th{padding-top:0}.wd-dynamic-discounts tbody tr{cursor:pointer;transition:all .25s ease}.wd-dynamic-discounts tbody tr:is(:hover,.wd-active){background-color:rgba(var(--bgcolor-black-rgb), 0.03)}.wd-dynamic-discounts tr :is(td,th):last-child{text-align:end}
